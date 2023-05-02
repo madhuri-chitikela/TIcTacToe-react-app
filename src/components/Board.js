@@ -47,8 +47,8 @@ export function Board(){
             <Square value={square[7]} onSquareClick={() => handleClick(7)}/>
             <Square value={square[8]} onSquareClick={() => handleClick(8)}/>
             </div>
-            <div className="status">
-              Status: {status}
+            <div className="status" style={{marginTop:"10px", fontSize: '20px'}}>
+              <b>Status: {status}</b>
     </div>
         </div>
     )
