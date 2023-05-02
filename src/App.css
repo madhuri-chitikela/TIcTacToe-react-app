@@ -10,6 +10,8 @@
   color:brown;
   width: 100px;
   height: 100px;
+  font-size: 60px;
+  font-weight: bold;
 }
 
 .board-container{
